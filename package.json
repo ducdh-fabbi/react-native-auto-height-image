@@ -1,6 +1,6 @@
 {
-  "name": "react-native-auto-height-image",
-  "version": "3.2.3",
+  "name": "@ducdh-origin/react-native-auto-height-image",
+  "version": "0.0.1",
   "description": "react-native auto height image",
   "main": "./index.js",
   "typings": "./index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:vivaxy/react-native-auto-height-image.git"
+    "url": "git+ssh://git@github.com/vivaxy/react-native-auto-height-image.git"
   },
   "keywords": [
     "react-native",
@@ -36,7 +36,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.0",
-    "react-native": "^0.63.0"
+    "react-native": "^0.63.0",
+    "react-native-fast-image": "*"
   },
   "lint-staged": {
     "**/**.{js,json,md,ts}": [
@@ -65,5 +66,9 @@
         "never"
       ]
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vivaxy/react-native-auto-height-image/issues"
+  },
+  "homepage": "https://github.com/vivaxy/react-native-auto-height-image#readme"
 }
